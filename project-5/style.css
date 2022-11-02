@@ -44,22 +44,27 @@ a:visited {
     color: #E50043;
     font-family: Arial, sans-serif;
     font-size: 50px;
+
 }
 
 .main-image {
     height: 100%;
+    
     background-image: url(./images/evian_origins_logo.jpg);
     background-size: cover;
-
+    
     display: flex;
     justify-content: center;
     align-items: center;
+
+    
 }
 
 
 .text-container {
     display: flex;
     justify-content: center;
+
 } 
 
 .container {
@@ -68,25 +73,20 @@ a:visited {
     border: 3px solid #F8BFC7;
     border-radius: 30px;
     margin: 150px 201px;
-
     width: 1040px;
     height: 280px;
-    
     display: flex;
-
 }
 
 .container-description {
     width: 1040px;
     height: 280px;
-
     position: relative;
     top: 24px;
     left: 24px;
 }
 
 .bottles-container {
-    height: 100%;
     display: flex;
     justify-content: space-around;
 }
@@ -94,11 +94,9 @@ a:visited {
 .bottles > p {
     width: 250px;
     height: 60px;
-
     font-size: 25px;
     font-family: Arial, sans-serif;
     text-align: center;
-    
     margin-top: 40px;
     margin-left: 20px;
 
