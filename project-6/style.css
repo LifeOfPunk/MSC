@@ -5,7 +5,7 @@
 }
 
 /* Maket deckstop */
-@media only screen and (min-width: 390px) {
+
     .header-footer {
         background-color: #0000FF;
         color: white;
@@ -30,11 +30,10 @@
         text-align: center;
         padding: 30px;
     }
-
-}
-
+    
 /* Maket for Iphone 12 Pro */
-@media only screen and (max-width: 880px)  {
+
+@media only screen and (max-width: 390px)  {
     .block {
         width: 100%;
         margin: 10px;
