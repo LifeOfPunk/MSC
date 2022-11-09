@@ -16,6 +16,7 @@
 
     .container {
         display: flex;
+        justify-container: center;
         flex-wrap: wrap;
         margin: 50px auto;
     }   
