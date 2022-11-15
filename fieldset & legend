@@ -1,5 +1,5 @@
   
-  fieldset & legend
+  fieldset & legend - Точки для выбора опций.
   
   <fieldset class="legacy-form-row">
 
@@ -22,3 +22,18 @@
         <label for="talk-type-2"
         class="radio-label">Воркшоп</label>
     </fieldset>
+    
+    
+
+    Гармошка для выбора опций.
+    
+            <div class="form-row">
+        <label for="t-shirt" class="t-shirt">Размер футболки</label>
+        <select name="t-shirt" id="t-shirt">
+            <option value="xs">XS</option>
+            <option value="s">S</option>
+            <option value="m">M</option>
+            <option value="l">L</option>
+        </select>
+    </div>
+    
