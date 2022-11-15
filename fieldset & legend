@@ -5,18 +5,20 @@
 
         <legend>Tип доклада</legend>
 
-        <input id="talk-type-1"
+        <input 
+        id="talk-type-1"
         name="talk-type"
         type="radio"
         value="main-stage"/>
         <label for="talk-type-1"
         class="radio-label">Главная сцена</label>
 
-        <input id="talk-type-2"
+        <input 
+        id="talk-type-2"
         name="talk-type"
         type="radio"
         value="workshop"
-        checked/>
+        checked/> <---Standart mark--->
         <label for="talk-type-2"
         class="radio-label">Воркшоп</label>
     </fieldset>
