@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заявка на участие</title>
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+   
+    <header class="speaker-form-header">
+        <h1>Заявка на участие</h1>
+        <p><em>Хотите прочитать доклад на конференции? Тогда заполните эту форму.</em></p>
+    </header>
+
+    <!-- Форма -->
+
+    <form action="" method="get" class="speaker-form">
+        <div class="form-row">
+            <label for="full-name">Имя</label>
+            <input id="full-name"
+            name="full-name"
+            type="text"/>
+        </div>
+    </form>
+
+    <!-- ПОЧТА -->
+
+    <div class="form-row">
+        <label for="email">Почта</label>
+        <input id="email"
+        name="enail"
+        type="text" 
+        placeholder="mcs@example.com"/>
+    </div>
+
+    <!-- ТИП ДОКЛАДА Кнопки Переключатели -->
+
+    <fieldset class="legacy-form-row">
+
+        <legend>Tип доклада</legend>
+
+        <input id="talk-type-1"
+        name="talk-type"
+        type="radio"
+        value="main-stage"/>
+        <label for="talk-type-1"
+        class="radio-label">Главная сцена</label>
+
+        <input id="talk-type-2"
+        name="talk-type"
+        type="radio"
+        value="workshop"
+        checked/>
+        <label for="talk-type-2"
+        class="radio-label">Воркшоп</label>
+    </fieldset> 
+
+    <!-- Размер футболки Select-элементы (выпадаюшие меню)-->
+
+    <div class="form-row">
+        <label for="t-shirt" class="t-shirt">Размер футболки</label>
+        <select name="t-shirt" id="t-shirt">
+            <option value="xs">XS</option>
+            <option value="s">S</option>
+            <option value="m">M</option>
+            <option value="l">L</option>
+        </select>
+    </div>
+
+     <!-- Описание лекции Текстовые области -->
+
+
+
+     <!-- ВОТ ТУТ ВОПРОС НИЖЕ: Не знаю почему, но div c классом instructions у меня не отоброжается под текстовой областью. Поэтому я его разместил как отдельный div. 
+     В уроке div instructions находится внутри div form-row. -->
+
+    <div class="form-row">
+        <label for="abstract">Описание лекции</label>
+        <textarea name="abstract" id="abstract"></textarea>
+    </div>
+        <div class="instructions">Расскажите о своей лекции </div>
+    
+    <!-- Галочки свободы -->
+
+    <div class="form-row">
+        <label class="checkbox-label" for="available">
+            <input id="available"
+            name="available"
+            type="checkbox"
+            value="is-available"/>
+            <span>Я свободен в эти даты</span>
+        </label>
+    </div>
+
+    <div class="form-row">
+        <button>Отправить</button>
+    </div>
+
+
+</body>
+</html>
