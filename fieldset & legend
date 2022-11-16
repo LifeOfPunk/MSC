@@ -1,0 +1,39 @@
+  
+  fieldset & legend - Точки для выбора опций.
+  
+  <fieldset class="legacy-form-row">
+
+        <legend>Tип доклада</legend>
+
+        <input 
+        id="talk-type-1"
+        name="talk-type"
+        type="radio"
+        value="main-stage"/>
+        <label for="talk-type-1"
+        class="radio-label">Главная сцена</label>
+
+        <input 
+        id="talk-type-2"
+        name="talk-type"
+        type="radio"
+        value="workshop"
+        checked/> <---Standart mark--->
+        <label for="talk-type-2"
+        class="radio-label">Воркшоп</label>
+    </fieldset>
+    
+    
+
+    Гармошка для выбора опций.
+    
+            <div class="form-row">
+        <label for="t-shirt" class="t-shirt">Размер футболки</label>
+        <select name="t-shirt" id="t-shirt">
+            <option value="xs">XS</option>
+            <option value="s">S</option>
+            <option value="m">M</option>
+            <option value="l">L</option>
+        </select>
+    </div>
+    
