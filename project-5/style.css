@@ -30,7 +30,6 @@ a:visited {
     padding: 50px;
     display: flex;
     justify-content: space-between;
-
 }
 
 .header-container  p {
@@ -42,7 +41,6 @@ a:visited {
     color: #E50043;
     font-family: Arial, sans-serif;
     font-size: 50px;
-
 }
 
 .main-image {
@@ -53,14 +51,12 @@ a:visited {
     
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center; 
 }
 
 .container-text {
     justify-content: space-around;
     padding: 30px;
-
 }
 
 
@@ -84,7 +80,6 @@ a:visited {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-
 }
 
 .bottles > p {
@@ -95,12 +90,10 @@ a:visited {
     text-align: center;
     margin-top: 40px;
     margin-left: 20px;
-
 }
 
 .info {
-    padding-left: 30px;
-    
+    padding-left: 30px; 
 }
 
 .footer-container {
@@ -113,7 +106,6 @@ a:visited {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-
 }
 
 .footer-container p {
